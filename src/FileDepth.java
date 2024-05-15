@@ -9,6 +9,5 @@ public class FileDepth
         int depth =  words.length - 2;
 
         return depth;
-
     }
 }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="" />
+    <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PhoneNumberValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,30 +32,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Cases.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicateWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EMail.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDepth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyFinder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GradeGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NOofWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Uppercase.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/indug/Documents/codsoft/src/NumberGame.java&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/indug/Documents/codsoft/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Cases.executor": "Run",
+    "Application.DuplicateWords.executor": "Run",
+    "Application.EMail.executor": "Run",
+    "Application.FileDepth.executor": "Run",
+    "Application.FrequencyFinder.executor": "Run",
+    "Application.GradeGenerator.executor": "Run",
+    "Application.NOofWords.executor": "Run",
+    "Application.NewString.executor": "Run",
+    "Application.NumberGame.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.PhoneNumberValidator.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.Uppercase.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/indug/Documents/codsoft/src/NumberGame.java",
+    "onboarding.tips.debug.path": "C:/Users/indug/Documents/codsoft/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.FrequencyFinder">
+}]]></component>
+  <component name="RunManager">
     <configuration name="FrequencyFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FrequencyFinder" />
       <module name="codsoft" />

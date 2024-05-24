@@ -1,6 +1,10 @@
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class FileAPI {
     public static boolean isPathExists(String path, String searchFile) {
@@ -34,7 +38,7 @@ public class FileAPI {
         for (String f : files) {
             File child = new File(path + f);
             Date date = new Date(child.lastModified());
-            System.out.println(child.getPath() + "\n" + f.length() + " " + date);
+            //System.out.println(child.getPath() + "\n" + f.length() + " " + date);
         }
     }
 
@@ -49,6 +53,28 @@ public class FileAPI {
         return arraylist;
     }
 
+    public static HashMap<String, Integer> noOfFiles(String path) {
+        HashMap<String, Integer> hashmap = new HashMap<>();
+        File file = new File(path);
+        for (String f : file.list()) {
+            Pattern pattern = Pattern.compile("\\.[a-zA-Z]+");
+            Matcher matcher = pattern.matcher(f);
+            if (matcher.find()) {
+                String word = matcher.group();
+                if (hashmap.containsKey(word)) {
+                    int frequency = hashmap.remove(word);
+                    frequency++;
+                    hashmap.put(word, frequency);
+                } else {
+                    hashmap.put(word, 1);
+                }
+            }
+        }
+
+
+        return hashmap;
+    }
+
     public static void main(String[] args) {
         String path = "C:\\Users\\indug\\OneDrive\\Documents\\";
         FileAPI.info(path);
@@ -60,13 +86,17 @@ public class FileAPI {
         }
         ArrayList<String> arraylist = FileAPI.listOfFiles(path);
         for (String element : arraylist) {
-            System.out.println(element);
+            //System.out.println(element);
         }
         ArrayList<String> elements = FileAPI.filteredFiles(path, ".class");
         System.out.println("Files which ends with .class are: ");
         for (String element : elements) {
-            System.out.println(element);
+            //System.out.println(element);
         }
+        HashMap<String,Integer> hashmap = FileAPI.noOfFiles(path);
+        System.out.println(hashmap);
+
+
 
 
     }

@@ -1,8 +1,5 @@
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashMap;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -30,6 +27,57 @@ public class FileAPI {
         }
         return arraylist;
     }
+    public static String largestFile(String path) {
+        File directory = new File(path);
+        int max_length = Integer.MIN_VALUE;
+        String largestFile = null;
+        for (String file : directory.list()) {
+            if (file.length() > max_length) {
+                max_length = file.length();
+                largestFile = file;
+            }
+        }
+        return largestFile;
+    }
+
+    public static File oldestFile(String path) {
+        File directory = new File(path);
+        if (!directory.isDirectory()) {
+            return null;
+        }
+
+        File[] files = directory.listFiles();
+        long epoch = Long.MAX_VALUE;
+        File oldestFile = null;
+
+        for (File file : files) {
+            if (file.lastModified() < epoch) {
+                epoch = file.lastModified();
+                oldestFile = file;
+            }
+        }
+        return oldestFile;
+
+    }
+
+    public static ArrayList<String> duplicateFiles(String path1, String path2) {
+        ArrayList<String> arraylist = new ArrayList<>();
+        HashSet<String> hashset = new HashSet<>();
+        File directory1 = new File(path1);
+        File directory2 = new File(path2);
+        String[] files1 = directory1.list();
+        String[] files2 = directory2.list();
+        for (String file1 : files1) {
+            hashset.add(file1);
+        }
+        for (String file2 : files2) {
+            if (hashset.contains(file2)) {
+                arraylist.add(file2);
+            }
+        }
+
+        return arraylist;
+    }
 
     public static void info(String path) {
         File file = new File(path);
@@ -38,7 +86,7 @@ public class FileAPI {
         for (String f : files) {
             File child = new File(path + f);
             Date date = new Date(child.lastModified());
-            //System.out.println(child.getPath() + "\n" + f.length() + " " + date);
+            System.out.println(child.getPath() + "\n" + child.length() + " " + date);
         }
     }
 
@@ -96,9 +144,16 @@ public class FileAPI {
         HashMap<String,Integer> hashmap = FileAPI.noOfFiles(path);
         System.out.println(hashmap);
 
+        System.out.println("Largest file in the directory" + path + "is" +FileAPI.largestFile(path));
 
+        System.out.println("Oldest file in the directory " + path + "is " +FileAPI.oldestFile(path));
 
-
+        String path1 = "C:\\Users\\indug\\mysite\\trackerapp\\";
+        //ArrayList<String> arraylist1 = duplicateFiles(path, path1);
+        ArrayList<String> arraylist1 = duplicateFiles(path, path1);
+        for (String element : arraylist1) {
+            System.out.println(element);
+        }
     }
 }
 

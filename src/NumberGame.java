@@ -45,12 +45,17 @@ public class NumberGame {
                     }
                     if (count == 1) {
                         System.out.println("Well done!!!\nYour score:10");
-                    } else if (count > 1 && count < 4) {
+                    } else if (count == 2) {
                         System.out.println("Your score:9");
-                    } else if (count > 4 && count < 7) {
+                    } else if (count == 3) {
                         System.out.println("Your score:8");
-                    } else {
-                        System.out.println("Your score:5\nBetter luck next time");
+                    } else if (count == 4) {
+                        System.out.println("Your score:6");
+                    } else if (count == 5) {
+                        System.out.println("Your score:5");
+                    }
+                    else {
+                        System.out.println("Better luck next time");
                     }
                     break;
                 }

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CommandLineArguments.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LargestFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargestFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -37,10 +43,12 @@
     "Application.CommandLineArguments.executor": "Run",
     "Application.DuplicateWords.executor": "Run",
     "Application.EMail.executor": "Run",
+    "Application.Employee.executor": "Run",
     "Application.FileAPI.executor": "Run",
     "Application.FileDepth.executor": "Run",
     "Application.FrequencyFinder.executor": "Debug",
     "Application.GradeGenerator.executor": "Run",
+    "Application.InterfaceExample.executor": "Run",
     "Application.LargestFile.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.NOofWords.executor": "Run",
@@ -50,16 +58,20 @@
     "Application.PhoneNumberValidator.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.SwingsExample.executor": "Run",
+    "Application.Top10Files.executor": "Run",
     "Application.Uppercase.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "18",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/indug/Documents/codsoft/src/NumberGame.java",
-    "onboarding.tips.debug.path": "C:/Users/indug/Documents/codsoft/src/Main.java"
+    "last_opened_file_path": "C:/Users/indug/Documents/Calculator",
+    "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LargestFile">
+  <component name="RunManager" selected="Application.SwingsExample">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -68,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileAPI" />
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FrequencyFinder" />
+    <configuration name="InterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceExample" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,15 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LibraryManagementSystem" />
+    <configuration name="SwingsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingsExample" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberGame" />
+    <configuration name="Top10Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Top10Files" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,13 +117,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwingsExample" />
+        <item itemvalue="Application.Top10Files" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.InterfaceExample" />
         <item itemvalue="Application.LargestFile" />
-        <item itemvalue="Application.LibraryManagementSystem" />
-        <item itemvalue="Application.FrequencyFinder" />
-        <item itemvalue="Application.FileAPI" />
-        <item itemvalue="Application.NumberGame" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,6 +161,11 @@
           <url>file://$PROJECT_DIR$/src/FrequencyFinder.java</url>
           <line>39</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -52,7 +52,7 @@ public class NumberGame {
                     } else {
                         System.out.println("Your score:5\nBetter luck next time");
                     }
-                    break; // Added break here to exit switch after case 1
+                    break;
                 }
                 case 2:{
                     isOk = false;

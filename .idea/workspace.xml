@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SemesterResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SemesterResults.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,47 +32,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Cases.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CommandLineArguments.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicateWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EMail.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileDepth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyFinder.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GradeGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LibraryManagementSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NOofWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PhoneNumberValidator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SemesterResults.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwingsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Top10Files.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Uppercase.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/indug/Documents/codsoft&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Cases.executor": "Run",
+    "Application.CommandLineArguments.executor": "Run",
+    "Application.DisplayLines.executor": "Run",
+    "Application.DuplicateWords.executor": "Run",
+    "Application.EMail.executor": "Run",
+    "Application.Employee.executor": "Run",
+    "Application.FileAPI.executor": "Run",
+    "Application.FileDemo.executor": "Run",
+    "Application.FileDepth.executor": "Run",
+    "Application.FrequencyFinder.executor": "Debug",
+    "Application.GradeGenerator.executor": "Run",
+    "Application.InterfaceExample.executor": "Run",
+    "Application.LargestFile.executor": "Run",
+    "Application.LibraryManagementSystem.executor": "Run",
+    "Application.MergeTwoFiles.executor": "Run",
+    "Application.NOofWords.executor": "Run",
+    "Application.NewString.executor": "Run",
+    "Application.NumberGame.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.PhoneNumberValidator.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.SemesterResults.executor": "Run",
+    "Application.SwingsExample.executor": "Run",
+    "Application.Top10Files.executor": "Run",
+    "Application.Uppercase.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "18",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/indug/Documents/codsoft",
+    "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.SemesterResults">
+}]]></component>
+  <component name="RunManager" selected="Application.DisplayLines">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
       <option name="PROGRAM_PARAMETERS" value="-arg1 10 -arg2 20 -operation add" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DisplayLines" />
+      <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberGame" />
+    <configuration name="MergeTwoFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeTwoFiles" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,20 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top10Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Top10Files" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DisplayLines" />
+        <item itemvalue="Application.MergeTwoFiles" />
         <item itemvalue="Application.SemesterResults" />
         <item itemvalue="Application.FileDemo" />
         <item itemvalue="Application.SwingsExample" />
-        <item itemvalue="Application.NumberGame" />
-        <item itemvalue="Application.Top10Files" />
       </list>
     </recent_temporary>
   </component>

@@ -59,18 +59,20 @@
     "Application.SemesterResults.executor": "Run",
     "Application.SwingsExample.executor": "Run",
     "Application.Top10Files.executor": "Run",
+    "Application.Top10Words.executor": "Run",
     "Application.Uppercase.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "18",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/indug/Documents/codsoft",
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DisplayLines">
+  <component name="RunManager" selected="Application.Top10Words">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -107,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingsExample" />
+    <configuration name="Top10Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Top10Words" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Top10Words" />
         <item itemvalue="Application.DisplayLines" />
         <item itemvalue="Application.MergeTwoFiles" />
         <item itemvalue="Application.SemesterResults" />
         <item itemvalue="Application.FileDemo" />
-        <item itemvalue="Application.SwingsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -156,11 +158,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FrequencyFinder.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java</url>
           <line>13</line>

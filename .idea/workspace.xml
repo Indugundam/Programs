@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PrintString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,7 @@
     "Application.NumberGame.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PhoneNumberValidator.executor": "Run",
+    "Application.PrintString.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.SemesterResults.executor": "Run",
@@ -72,7 +74,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Top10Words">
+  <component name="RunManager" selected="Application.PrintString">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -88,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileDemo" />
+    <configuration name="MergeTwoFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeTwoFiles" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeTwoFiles" />
+    <configuration name="PrintString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintString" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintString" />
         <item itemvalue="Application.Top10Words" />
         <item itemvalue="Application.DisplayLines" />
         <item itemvalue="Application.MergeTwoFiles" />
         <item itemvalue="Application.SemesterResults" />
-        <item itemvalue="Application.FileDemo" />
       </list>
     </recent_temporary>
   </component>

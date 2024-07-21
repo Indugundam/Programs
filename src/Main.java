@@ -1,6 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        String string = "abcd";
+        String string = "";
         boolean isMiddle = isCiaoCiaoInMiddle(string);
         if (isMiddle) {
             System.out.println("CiaoCiao is in the middle");
@@ -10,7 +10,7 @@ class Main {
     }
 
     public static boolean isCiaoCiaoInMiddle(String string) {
-        String[] words = string.split("CiaoCiao");
+        String[] words = string.split("CiaoCiao"); 
         int length = words.length;
         System.out.println(words.length);
         switch (length) {

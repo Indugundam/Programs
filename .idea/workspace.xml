@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +28,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2f8lpAjwZvLIYaWo56kJ3VIgHJm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +40,7 @@
     "Application.Cases.executor": "Run",
     "Application.CommandLineArguments.executor": "Run",
     "Application.DecolumnizeTheString.executor": "Run",
+    "Application.DetectScannedValues.executor": "Run",
     "Application.DisplayLines.executor": "Run",
     "Application.DuplicateWords.executor": "Run",
     "Application.EMail.executor": "Run",
@@ -64,11 +64,13 @@
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.SemesterResults.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.SwingsExample.executor": "Run",
     "Application.Top10Files.executor": "Run",
     "Application.Top10Words.executor": "Run",
     "Application.Uppercase.executor": "Run",
     "Application.YZswapper.executor": "Run",
+    "Application.pyramid.executor": "Run",
     "Application.varArgsExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,7 +83,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.varArgsExample">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -90,22 +92,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecolumnizeTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DecolumnizeTheString" />
+    <configuration name="DetectScannedValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DetectScannedValues" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintString" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,6 +108,13 @@
     </configuration>
     <configuration name="YZswapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="YZswapper" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pyramid" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.pyramid" />
+        <item itemvalue="Application.DetectScannedValues" />
         <item itemvalue="Application.varArgsExample" />
         <item itemvalue="Application.YZswapper" />
-        <item itemvalue="Application.DecolumnizeTheString" />
-        <item itemvalue="Application.PrintString" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

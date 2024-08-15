@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Candies.executor": "Run",
     "Application.Cases.executor": "Run",
     "Application.CommandLineArguments.executor": "Run",
     "Application.DecolumnizeTheString.executor": "Run",
@@ -49,11 +49,14 @@
     "Application.FileDemo.executor": "Run",
     "Application.FileDepth.executor": "Run",
     "Application.FrequencyFinder.executor": "Debug",
+    "Application.GoodPairs.executor": "Run",
     "Application.GradeGenerator.executor": "Run",
+    "Application.HeightChecker.executor": "Run",
     "Application.InterfaceExample.executor": "Run",
     "Application.LargestFile.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaximumProduct.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
     "Application.NOofWords.executor": "Run",
     "Application.NewString.executor": "Run",
@@ -63,7 +66,9 @@
     "Application.PrintString.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.RichestCustomerWealth.executor": "Run",
     "Application.SemesterResults.executor": "Run",
+    "Application.ShuffleTheArray.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SwingsExample.executor": "Run",
     "Application.Top10Files.executor": "Run",
@@ -83,7 +88,14 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.HeightChecker">
+    <configuration name="Candies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Candies" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -92,36 +104,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectScannedValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DetectScannedValues" />
+    <configuration name="GoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoodPairs" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeightChecker" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YZswapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="YZswapper" />
+    <configuration name="MaximumProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumProduct" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pyramid" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="varArgsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="varArgsExample" />
+    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RichestCustomerWealth" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.pyramid" />
-        <item itemvalue="Application.DetectScannedValues" />
-        <item itemvalue="Application.varArgsExample" />
-        <item itemvalue="Application.YZswapper" />
+        <item itemvalue="Application.HeightChecker" />
+        <item itemvalue="Application.MaximumProduct" />
+        <item itemvalue="Application.Candies" />
+        <item itemvalue="Application.RichestCustomerWealth" />
+        <item itemvalue="Application.GoodPairs" />
       </list>
     </recent_temporary>
   </component>

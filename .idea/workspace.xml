@@ -34,74 +34,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Candies.executor": "Run",
-    "Application.Cases.executor": "Run",
-    "Application.CommandLineArguments.executor": "Run",
-    "Application.DecolumnizeTheString.executor": "Run",
-    "Application.DetectScannedValues.executor": "Run",
-    "Application.DisplayLines.executor": "Run",
-    "Application.DuplicateWords.executor": "Run",
-    "Application.EMail.executor": "Run",
-    "Application.Employee.executor": "Run",
-    "Application.FileAPI.executor": "Run",
-    "Application.FileDemo.executor": "Run",
-    "Application.FileDepth.executor": "Run",
-    "Application.FrequencyFinder.executor": "Debug",
-    "Application.GoodPairs.executor": "Run",
-    "Application.GradeGenerator.executor": "Run",
-    "Application.HeightChecker.executor": "Run",
-    "Application.InterfaceExample.executor": "Run",
-    "Application.LargestFile.executor": "Run",
-    "Application.LeftRightDifferences.executor": "Run",
-    "Application.LibraryManagementSystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Matrix.executor": "Run",
-    "Application.MaximumProduct.executor": "Run",
-    "Application.MergeTwoFiles.executor": "Run",
-    "Application.MinimumOperations.executor": "Run",
-    "Application.NOofWords.executor": "Run",
-    "Application.NewString.executor": "Run",
-    "Application.NumberGame.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.PhoneNumberValidator.executor": "Run",
-    "Application.PrintString.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.RichestCustomerWealth.executor": "Run",
-    "Application.SemesterResults.executor": "Run",
-    "Application.ShuffleTheArray.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.SquareRoot.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.SumOfUniqueElements.executor": "Run",
-    "Application.SwingsExample.executor": "Run",
-    "Application.Top10Files.executor": "Run",
-    "Application.Top10Words.executor": "Run",
-    "Application.UglyNumber.executor": "Run",
-    "Application.Uppercase.executor": "Run",
-    "Application.WeakestRows.executor": "Run",
-    "Application.YZswapper.executor": "Run",
-    "Application.isValidPalindrome.executor": "Run",
-    "Application.pyramid.executor": "Run",
-    "Application.varArgsExample.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/indug/Documents/Programs",
-    "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Candies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cases.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommandLineArguments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsistentStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecolumnizeTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectScannedValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DisplayLines.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EMail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDepth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyFinder.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GoodPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GradeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeightChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestAltitude.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRightDifferences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoFiles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NOofWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhoneNumberValidator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SemesterResults.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShuffleTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareRoot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfUniqueElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwingsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Top10Files.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Top10Words.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UglyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uppercase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeakestRows.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YZswapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.isValidPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.varArgsExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/indug/Documents/Programs&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.LeftRightDifferences">
+}</component>
+  <component name="RunManager" selected="Application.ConsistentStrings">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
       <option name="PROGRAM_PARAMETERS" value="-arg1 10 -arg2 20 -operation add" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsistentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsistentStrings" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighestAltitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HighestAltitude" />
+      <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,20 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinimumOperations" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Student" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UglyNumber" />
       <module name="codsoft" />
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsistentStrings" />
+        <item itemvalue="Application.HighestAltitude" />
         <item itemvalue="Application.LeftRightDifferences" />
         <item itemvalue="Application.Matrix" />
         <item itemvalue="Application.UglyNumber" />
-        <item itemvalue="Application.MinimumOperations" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>

@@ -54,10 +54,13 @@
     "Application.HeightChecker.executor": "Run",
     "Application.InterfaceExample.executor": "Run",
     "Application.LargestFile.executor": "Run",
+    "Application.LeftRightDifferences.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Matrix.executor": "Run",
     "Application.MaximumProduct.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
+    "Application.MinimumOperations.executor": "Run",
     "Application.NOofWords.executor": "Run",
     "Application.NewString.executor": "Run",
     "Application.NumberGame.executor": "Run",
@@ -70,11 +73,17 @@
     "Application.SemesterResults.executor": "Run",
     "Application.ShuffleTheArray.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.SquareRoot.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.SumOfUniqueElements.executor": "Run",
     "Application.SwingsExample.executor": "Run",
     "Application.Top10Files.executor": "Run",
     "Application.Top10Words.executor": "Run",
+    "Application.UglyNumber.executor": "Run",
     "Application.Uppercase.executor": "Run",
+    "Application.WeakestRows.executor": "Run",
     "Application.YZswapper.executor": "Run",
+    "Application.isValidPalindrome.executor": "Run",
     "Application.pyramid.executor": "Run",
     "Application.varArgsExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -88,14 +97,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HeightChecker">
-    <configuration name="Candies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Candies" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeftRightDifferences">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -104,29 +106,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoodPairs" />
+    <configuration name="LeftRightDifferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeftRightDifferences" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeightChecker" />
+    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumProduct" />
+    <configuration name="MinimumOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumOperations" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RichestCustomerWealth" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Student" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UglyNumber" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeightChecker" />
-        <item itemvalue="Application.MaximumProduct" />
-        <item itemvalue="Application.Candies" />
-        <item itemvalue="Application.RichestCustomerWealth" />
-        <item itemvalue="Application.GoodPairs" />
+        <item itemvalue="Application.LeftRightDifferences" />
+        <item itemvalue="Application.Matrix" />
+        <item itemvalue="Application.UglyNumber" />
+        <item itemvalue="Application.MinimumOperations" />
+        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>

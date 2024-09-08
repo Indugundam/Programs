@@ -18,6 +18,7 @@ public class ConsistentStrings {
             for (int i = 0; i < word.length(); i++) {
                 if (!hashset.contains(word.charAt(i))) {
                     found = false;
+                    break;
                 }
             }
             if (found == true) {

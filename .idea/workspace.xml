@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsistentStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsistentStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColumnTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColumnTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UglyNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,32 +38,39 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AttendanceRecord.executor": "Run",
     "Application.Candies.executor": "Run",
     "Application.Cases.executor": "Run",
     "Application.ColumnTitle.executor": "Run",
     "Application.CommandLineArguments.executor": "Run",
     "Application.ConsistentStrings.executor": "Run",
+    "Application.CountingBits.executor": "Run",
     "Application.DecolumnizeTheString.executor": "Run",
     "Application.DetectScannedValues.executor": "Run",
     "Application.DisplayLines.executor": "Run",
     "Application.DuplicateWords.executor": "Run",
+    "Application.Duplicates.executor": "Run",
     "Application.EMail.executor": "Run",
     "Application.Employee.executor": "Run",
     "Application.FileAPI.executor": "Run",
     "Application.FileDemo.executor": "Run",
     "Application.FileDepth.executor": "Run",
+    "Application.FindTheDifference.executor": "Run",
+    "Application.FirstOccurence.executor": "Run",
     "Application.FrequencyFinder.executor": "Debug",
     "Application.GoodPairs.executor": "Run",
     "Application.GradeGenerator.executor": "Run",
     "Application.HeightChecker.executor": "Run",
     "Application.HighestAltitude.executor": "Run",
     "Application.InterfaceExample.executor": "Run",
+    "Application.IntersectionOfArrays.executor": "Run",
     "Application.LargestFile.executor": "Run",
     "Application.LeftRightDifferences.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Matrix.executor": "Run",
     "Application.MaximumProduct.executor": "Run",
+    "Application.MaximumSubArraySum.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
     "Application.MinimumOperations.executor": "Run",
     "Application.NOofWords.executor": "Run",
@@ -70,21 +78,28 @@
     "Application.NumberGame.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
+    "Application.Perimeter.executor": "Run",
     "Application.Permutation.executor": "Run",
     "Application.PhoneNumberValidator.executor": "Run",
     "Application.Power.executor": "Run",
+    "Application.PrimeCount.executor": "Run",
     "Application.PrintString.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.ReverseTheString.executor": "Run",
+    "Application.ReverseWords.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
     "Application.SemesterResults.executor": "Run",
     "Application.SetToZero.executor": "Run",
     "Application.ShuffleTheArray.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.SortCharacters.executor": "Run",
     "Application.SquareRoot.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.SumOfUniqueElements.executor": "Run",
+    "Application.SummaryRanges.executor": "Run",
     "Application.SwingsExample.executor": "Run",
     "Application.Top10Files.executor": "Run",
     "Application.Top10Words.executor": "Run",
@@ -107,9 +122,9 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseNumber">
-    <configuration name="ColumnTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColumnTitle" />
+  <component name="RunManager" selected="Application.ReverseWords">
+    <configuration name="AttendanceRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AttendanceRecord" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,29 +138,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PascalTriangle" />
+    <configuration name="FirstOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstOccurence" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Power" />
+    <configuration name="Perimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Perimeter" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseNumber" />
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseWords" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="columnTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="columnTitle" />
+    <configuration name="SortCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortCharacters" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseNumber" />
-        <item itemvalue="Application.columnTitle" />
-        <item itemvalue="Application.ColumnTitle" />
-        <item itemvalue="Application.Power" />
-        <item itemvalue="Application.PascalTriangle" />
+        <item itemvalue="Application.ReverseWords" />
+        <item itemvalue="Application.AttendanceRecord" />
+        <item itemvalue="Application.FirstOccurence" />
+        <item itemvalue="Application.Perimeter" />
+        <item itemvalue="Application.SortCharacters" />
       </list>
     </recent_temporary>
   </component>

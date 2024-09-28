@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumOfEncryptedNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfEncryptedNums.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,8 @@
     "Application.Duplicates.executor": "Run",
     "Application.EMail.executor": "Run",
     "Application.Employee.executor": "Run",
+    "Application.EncryptedString.executor": "Run",
+    "Application.ExtraCharacters.executor": "Run",
     "Application.FileAPI.executor": "Run",
     "Application.FileDemo.executor": "Run",
     "Application.FileDepth.executor": "Run",
@@ -58,12 +61,15 @@
     "Application.FrequencyFinder.executor": "Debug",
     "Application.GoodPairs.executor": "Run",
     "Application.GradeGenerator.executor": "Run",
+    "Application.GroupAnagrams.executor": "Run",
     "Application.HeightChecker.executor": "Run",
     "Application.HighestAltitude.executor": "Run",
     "Application.InterfaceExample.executor": "Run",
     "Application.IntersectionOfArrays.executor": "Run",
+    "Application.KeyOfNumbers.executor": "Run",
     "Application.LargestFile.executor": "Run",
     "Application.LeftRightDifferences.executor": "Run",
+    "Application.Length.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Matrix.executor": "Run",
@@ -97,7 +103,9 @@
     "Application.SortCharacters.executor": "Run",
     "Application.SquareRoot.executor": "Run",
     "Application.Stock.executor": "Run",
+    "Application.StringCompare.executor": "Run",
     "Application.Student.executor": "Run",
+    "Application.SumOfEncryptedNums.executor": "Run",
     "Application.SumOfUniqueElements.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
     "Application.SwingsExample.executor": "Run",
@@ -122,14 +130,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReshapeMatrix">
-    <configuration name="AttendanceRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AttendanceRecord" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SumOfEncryptedNums">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -138,29 +139,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstOccurence" />
+    <configuration name="EncryptedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EncryptedString" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReshapeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReshapeMatrix" />
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroupAnagrams" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseWords" />
+    <configuration name="KeyOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KeyOfNumbers" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateString" />
+    <configuration name="Length" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Length" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfEncryptedNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfEncryptedNums" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReshapeMatrix" />
-        <item itemvalue="Application.RotateString" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.AttendanceRecord" />
-        <item itemvalue="Application.FirstOccurence" />
+        <item itemvalue="Application.SumOfEncryptedNums" />
+        <item itemvalue="Application.EncryptedString" />
+        <item itemvalue="Application.KeyOfNumbers" />
+        <item itemvalue="Application.GroupAnagrams" />
+        <item itemvalue="Application.Length" />
       </list>
     </recent_temporary>
   </component>

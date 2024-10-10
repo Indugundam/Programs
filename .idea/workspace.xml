@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumOfEncryptedNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfEncryptedNums.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
     "Application.FileDepth.executor": "Run",
     "Application.FindTheDifference.executor": "Run",
     "Application.FirstOccurence.executor": "Run",
+    "Application.FirstPalindrome.executor": "Run",
     "Application.FrequencyFinder.executor": "Debug",
     "Application.GoodPairs.executor": "Run",
     "Application.GradeGenerator.executor": "Run",
@@ -75,6 +75,7 @@
     "Application.Matrix.executor": "Run",
     "Application.MaximumProduct.executor": "Run",
     "Application.MaximumSubArraySum.executor": "Run",
+    "Application.MaximumWords.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
     "Application.MinimumOperations.executor": "Run",
     "Application.NOofWords.executor": "Run",
@@ -88,8 +89,10 @@
     "Application.Power.executor": "Run",
     "Application.PrimeCount.executor": "Run",
     "Application.PrintString.executor": "Run",
+    "Application.RemoveAnagrams.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReshapeMatrix.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReverseTheString.executor": "Run",
@@ -100,6 +103,7 @@
     "Application.SetToZero.executor": "Run",
     "Application.ShuffleTheArray.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.SortArray.executor": "Run",
     "Application.SortCharacters.executor": "Run",
     "Application.SquareRoot.executor": "Run",
     "Application.Stock.executor": "Run",
@@ -130,7 +134,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOfEncryptedNums">
+  <component name="RunManager" selected="Application.SortArray">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -139,36 +143,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncryptedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EncryptedString" />
+    <configuration name="FirstPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstPalindrome" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GroupAnagrams" />
+    <configuration name="MaximumWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumWords" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KeyOfNumbers" />
+    <configuration name="RemoveAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveAnagrams" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Length" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Length" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseArray" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfEncryptedNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfEncryptedNums" />
+    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortArray" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumOfEncryptedNums" />
-        <item itemvalue="Application.EncryptedString" />
-        <item itemvalue="Application.KeyOfNumbers" />
-        <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.Length" />
+        <item itemvalue="Application.SortArray" />
+        <item itemvalue="Application.FirstPalindrome" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.RemoveAnagrams" />
+        <item itemvalue="Application.MaximumWords" />
       </list>
     </recent_temporary>
   </component>

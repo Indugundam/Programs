@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstUniqueCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstUniqueCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +56,11 @@
     "Application.FileAPI.executor": "Run",
     "Application.FileDemo.executor": "Run",
     "Application.FileDepth.executor": "Run",
+    "Application.FindJudge.executor": "Run",
     "Application.FindTheDifference.executor": "Run",
     "Application.FirstOccurence.executor": "Run",
     "Application.FirstPalindrome.executor": "Run",
+    "Application.FirstUniqueCharacter.executor": "Run",
     "Application.FrequencyFinder.executor": "Debug",
     "Application.GoodPairs.executor": "Run",
     "Application.GradeGenerator.executor": "Run",
@@ -90,6 +93,7 @@
     "Application.PrimeCount.executor": "Run",
     "Application.PrintString.executor": "Run",
     "Application.RemoveAnagrams.executor": "Run",
+    "Application.RemoveDuplicateElements.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReshapeMatrix.executor": "Run",
     "Application.ReverseArray.executor": "Run",
@@ -134,7 +138,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SortArray">
+  <component name="RunManager" selected="Application.FindJudge">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -143,8 +147,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstPalindrome" />
+    <configuration name="FindJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindJudge" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstUniqueCharacter" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,22 +168,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveAnagrams" />
+    <configuration name="RemoveDuplicateElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicateElements" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseArray" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortArray" />
+    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateString" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,10 +184,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortArray" />
-        <item itemvalue="Application.FirstPalindrome" />
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.RemoveAnagrams" />
+        <item itemvalue="Application.FindJudge" />
+        <item itemvalue="Application.RemoveDuplicateElements" />
+        <item itemvalue="Application.RotateString" />
+        <item itemvalue="Application.FirstUniqueCharacter" />
         <item itemvalue="Application.MaximumWords" />
       </list>
     </recent_temporary>

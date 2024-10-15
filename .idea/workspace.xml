@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstUniqueCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstUniqueCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddBinary.executor": "Run",
     "Application.AttendanceRecord.executor": "Run",
+    "Application.BallsSeperation.executor": "Debug",
+    "Application.BusStops.executor": "Run",
     "Application.Candies.executor": "Run",
     "Application.Cases.executor": "Run",
     "Application.ColumnTitle.executor": "Run",
@@ -95,6 +97,7 @@
     "Application.RemoveAnagrams.executor": "Run",
     "Application.RemoveDuplicateElements.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReorderString.executor": "Run",
     "Application.ReshapeMatrix.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
@@ -103,6 +106,7 @@
     "Application.ReverseWords.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
     "Application.RotateString.executor": "Run",
+    "Application.SearchPosition.executor": "Run",
     "Application.SemesterResults.executor": "Run",
     "Application.SetToZero.executor": "Run",
     "Application.ShuffleTheArray.executor": "Run",
@@ -138,7 +142,28 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindJudge">
+  <component name="RunManager" selected="Application.AddBinary">
+    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddBinary" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BallsSeperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BallsSeperation" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BusStops" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -147,36 +172,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindJudge" />
+    <configuration name="ReorderString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReorderString" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstUniqueCharacter" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumWords" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicateElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveDuplicateElements" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateString" />
+    <configuration name="SearchPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchPosition" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindJudge" />
-        <item itemvalue="Application.RemoveDuplicateElements" />
-        <item itemvalue="Application.RotateString" />
-        <item itemvalue="Application.FirstUniqueCharacter" />
-        <item itemvalue="Application.MaximumWords" />
+        <item itemvalue="Application.AddBinary" />
+        <item itemvalue="Application.SearchPosition" />
+        <item itemvalue="Application.BallsSeperation" />
+        <item itemvalue="Application.ReorderString" />
+        <item itemvalue="Application.BusStops" />
       </list>
     </recent_temporary>
   </component>

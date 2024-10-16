@@ -42,6 +42,7 @@
     "Application.BusStops.executor": "Run",
     "Application.Candies.executor": "Run",
     "Application.Cases.executor": "Run",
+    "Application.ColumnNumber.executor": "Run",
     "Application.ColumnTitle.executor": "Run",
     "Application.CommandLineArguments.executor": "Run",
     "Application.ConsistentStrings.executor": "Run",
@@ -67,6 +68,7 @@
     "Application.GoodPairs.executor": "Run",
     "Application.GradeGenerator.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
+    "Application.HappyNumber.executor": "Run",
     "Application.HeightChecker.executor": "Run",
     "Application.HighestAltitude.executor": "Run",
     "Application.InterfaceExample.executor": "Run",
@@ -126,6 +128,7 @@
     "Application.UglyNumber.executor": "Run",
     "Application.Uppercase.executor": "Run",
     "Application.WeakestRows.executor": "Run",
+    "Application.WordPattern.executor": "Run",
     "Application.YZswapper.executor": "Run",
     "Application.columnTitle.executor": "Run",
     "Application.isValidPalindrome.executor": "Run",
@@ -142,7 +145,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AddBinary">
+  <component name="RunManager" selected="Application.WordPattern">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddBinary" />
       <module name="codsoft" />
@@ -150,15 +153,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BallsSeperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BallsSeperation" />
+    <configuration name="ColumnNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColumnNumber" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BusStops" />
+    <configuration name="ColumnTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColumnTitle" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,15 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReorderString" />
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HappyNumber" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchPosition" />
+    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordPattern" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordPattern" />
+        <item itemvalue="Application.HappyNumber" />
+        <item itemvalue="Application.ColumnNumber" />
+        <item itemvalue="Application.ColumnTitle" />
         <item itemvalue="Application.AddBinary" />
-        <item itemvalue="Application.SearchPosition" />
-        <item itemvalue="Application.BallsSeperation" />
-        <item itemvalue="Application.ReorderString" />
-        <item itemvalue="Application.BusStops" />
       </list>
     </recent_temporary>
   </component>

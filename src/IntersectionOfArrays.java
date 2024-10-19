@@ -4,13 +4,13 @@ public class IntersectionOfArrays {
     public static void main(String[] args) {
         int[] nums1 = {4, 9, 5};
         int[] nums2 = {9, 4, 9, 8, 4};
-        ArrayList<Integer> arrayList = intersection(nums1, nums2);
-        for (int ele : arrayList) {
+        int[] array = intersection(nums1, nums2);
+        for (int ele : array) {
             System.out.println(ele);
         }
     }
 
-    public static ArrayList<Integer> intersection(int[] nums1, int[] nums2) {
+    public static int[] intersection(int[] nums1, int[] nums2) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         int k = 0;
         for (int i = 0; i < nums1.length; i++) {
@@ -22,6 +22,11 @@ public class IntersectionOfArrays {
                 }
             }
         }
-        return arrayList;
+        int i = 0;
+        int[] elements = new int[arrayList.size()];
+        for(int ele : arrayList) {
+            elements[i++] = ele;
+        }
+        return elements;
     }
 }

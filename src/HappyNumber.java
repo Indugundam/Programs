@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class HappyNumber {
     public static void main(String[] args) {
         int num = 19;
@@ -5,6 +7,7 @@ public class HappyNumber {
     }
 
     public static boolean isHappy(int n) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
         boolean isHappy = true;
         while (isHappy) {
             int sum = 0;
@@ -12,6 +15,11 @@ public class HappyNumber {
                 int rem = n % 10;
                 n = n / 10;
                 sum += rem * rem;
+            }
+            if (arrayList.contains(sum)) {
+                return false;
+            } else {
+                arrayList.add(sum);
             }
             System.out.println(sum);
             n = sum;

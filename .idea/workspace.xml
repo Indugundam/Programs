@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntersectionOfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntersectionOfArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuildDiamond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DistributeElements.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "Application.DetectScannedValues.executor": "Run",
     "Application.DifferenceOfArrays.executor": "Run",
     "Application.DisplayLines.executor": "Run",
+    "Application.DistanceValue.executor": "Run",
     "Application.DistributeElements.executor": "Run",
     "Application.DuplicateWords.executor": "Run",
     "Application.Duplicates.executor": "Run",
@@ -69,6 +70,7 @@
     "Application.FirstOccurence.executor": "Run",
     "Application.FirstPalindrome.executor": "Run",
     "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.FormSmallestNumber.executor": "Run",
     "Application.FrequencyFinder.executor": "Debug",
     "Application.GoodPairs.executor": "Run",
     "Application.GradeGenerator.executor": "Run",
@@ -88,6 +90,7 @@
     "Application.MaximumProduct.executor": "Run",
     "Application.MaximumSubArraySum.executor": "Run",
     "Application.MaximumWords.executor": "Run",
+    "Application.Merge2DArrays.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
     "Application.MinimumOperations.executor": "Run",
     "Application.NOofWords.executor": "Run",
@@ -123,6 +126,7 @@
     "Application.SquareRoot.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StringCompare.executor": "Run",
+    "Application.StringEquivalence.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.SumOfEncryptedNums.executor": "Run",
     "Application.SumOfUniqueElements.executor": "Run",
@@ -150,7 +154,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DistributeElements">
+  <component name="RunManager" selected="Application.Merge2DArrays">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -159,15 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonElements" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DifferenceOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DifferenceOfArrays" />
+    <configuration name="DistanceValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DistanceValue" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,15 +177,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HappyNumber" />
+    <configuration name="FormSmallestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FormSmallestNumber" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordPattern" />
+    <configuration name="Merge2DArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Merge2DArrays" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringEquivalence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringEquivalence" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merge2DArrays" />
+        <item itemvalue="Application.StringEquivalence" />
+        <item itemvalue="Application.FormSmallestNumber" />
+        <item itemvalue="Application.DistanceValue" />
         <item itemvalue="Application.DistributeElements" />
-        <item itemvalue="Application.CommonElements" />
-        <item itemvalue="Application.DifferenceOfArrays" />
-        <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.HappyNumber" />
       </list>
     </recent_temporary>
   </component>

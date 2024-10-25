@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildDiamond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DistributeElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitpush.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/gitpush.cmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     "Application.CommonElements.executor": "Run",
     "Application.ConsistentStrings.executor": "Run",
     "Application.CountingBits.executor": "Run",
+    "Application.DecodeXORedArray.executor": "Run",
     "Application.DecolumnizeTheString.executor": "Run",
     "Application.DetectScannedValues.executor": "Run",
     "Application.DifferenceOfArrays.executor": "Run",
@@ -91,8 +91,10 @@
     "Application.MaximumSubArraySum.executor": "Run",
     "Application.MaximumWords.executor": "Run",
     "Application.Merge2DArrays.executor": "Run",
+    "Application.MergeSortedArray.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
     "Application.MinimumOperations.executor": "Run",
+    "Application.MonotonicArray.executor": "Run",
     "Application.NOofWords.executor": "Run",
     "Application.NewString.executor": "Run",
     "Application.NumberGame.executor": "Run",
@@ -104,6 +106,8 @@
     "Application.Power.executor": "Run",
     "Application.PrimeCount.executor": "Run",
     "Application.PrintString.executor": "Run",
+    "Application.RankArray.executor": "Run",
+    "Application.RelativeSortArray.executor": "Run",
     "Application.RemoveAnagrams.executor": "Run",
     "Application.RemoveDuplicateElements.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
@@ -122,7 +126,10 @@
     "Application.ShuffleTheArray.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SortArray.executor": "Run",
+    "Application.SortArrayByParity.executor": "Run",
     "Application.SortCharacters.executor": "Run",
+    "Application.SpecialArray.executor": "Run",
+    "Application.SplitTheArray.executor": "Run",
     "Application.SquareRoot.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StringCompare.executor": "Run",
@@ -136,6 +143,7 @@
     "Application.Top10Words.executor": "Run",
     "Application.UglyNumber.executor": "Run",
     "Application.Uppercase.executor": "Run",
+    "Application.ValidMountainArray.executor": "Run",
     "Application.WeakestRows.executor": "Run",
     "Application.WordPattern.executor": "Run",
     "Application.YZswapper.executor": "Run",
@@ -154,7 +162,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Merge2DArrays">
+  <component name="RunManager" selected="Application.RankArray">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -163,36 +171,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistanceValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DistanceValue" />
+    <configuration name="DecodeXORedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecodeXORedArray" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributeElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DistributeElements" />
+    <configuration name="RankArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RankArray" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormSmallestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FormSmallestNumber" />
+    <configuration name="SortArrayByParity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortArrayByParity" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge2DArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Merge2DArrays" />
+    <configuration name="SpecialArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpecialArray" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEquivalence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringEquivalence" />
+    <configuration name="SplitTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SplitTheArray" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Merge2DArrays" />
-        <item itemvalue="Application.StringEquivalence" />
-        <item itemvalue="Application.FormSmallestNumber" />
-        <item itemvalue="Application.DistanceValue" />
-        <item itemvalue="Application.DistributeElements" />
+        <item itemvalue="Application.RankArray" />
+        <item itemvalue="Application.SortArrayByParity" />
+        <item itemvalue="Application.SpecialArray" />
+        <item itemvalue="Application.SplitTheArray" />
+        <item itemvalue="Application.DecodeXORedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +252,11 @@
           <url>file://$PROJECT_DIR$/../JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MergeSortedArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

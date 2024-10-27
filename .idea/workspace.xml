@@ -37,6 +37,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddBinary.executor": "Run",
+    "Application.ApplyOperations.executor": "Run",
+    "Application.ArrayConcatenationValue.executor": "Run",
+    "Application.ArrayForm.executor": "Run",
     "Application.AttendanceRecord.executor": "Run",
     "Application.BallsSeperation.executor": "Debug",
     "Application.BusStops.executor": "Run",
@@ -56,6 +59,7 @@
     "Application.DisplayLines.executor": "Run",
     "Application.DistanceValue.executor": "Run",
     "Application.DistributeElements.executor": "Run",
+    "Application.DivideArray.executor": "Run",
     "Application.DuplicateWords.executor": "Run",
     "Application.Duplicates.executor": "Run",
     "Application.EMail.executor": "Run",
@@ -168,7 +172,28 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Convert1DArray">
+  <component name="RunManager" selected="Application.ArrayForm">
+    <configuration name="ApplyOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplyOperations" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayConcatenationValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayConcatenationValue" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayForm" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -184,29 +209,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetMaximum" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntersectionOfMultipleArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntersectionOfMultipleArrays" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParityArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ParityArray" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidParanthesis" />
+    <configuration name="DivideArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DivideArray" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayForm" />
+        <item itemvalue="Application.ArrayConcatenationValue" />
+        <item itemvalue="Application.ApplyOperations" />
+        <item itemvalue="Application.DivideArray" />
         <item itemvalue="Application.Convert1DArray" />
-        <item itemvalue="Application.GetMaximum" />
-        <item itemvalue="Application.IntersectionOfMultipleArrays" />
-        <item itemvalue="Application.ParityArray" />
-        <item itemvalue="Application.ValidParanthesis" />
       </list>
     </recent_temporary>
   </component>

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TargetIndices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TargetIndices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RecursionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +146,7 @@
     "Application.SortCharacters.executor": "Run",
     "Application.SpecialArray.executor": "Run",
     "Application.SplitTheArray.executor": "Run",
+    "Application.SplitTheString.executor": "Run",
     "Application.SquareRoot.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StringCompare.executor": "Run",
@@ -160,6 +160,8 @@
     "Application.TargetIndices.executor": "Run",
     "Application.Top10Files.executor": "Run",
     "Application.Top10Words.executor": "Run",
+    "Application.TreeExamples.executor": "Run",
+    "Application.TreeNode.executor": "Run",
     "Application.UglyNumber.executor": "Run",
     "Application.Uppercase.executor": "Run",
     "Application.ValidMountainArray.executor": "Run",
@@ -182,25 +184,11 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TargetIndices">
+  <component name="RunManager" selected="Application.TreeExamples">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
       <option name="PROGRAM_PARAMETERS" value="-arg1 10 -arg2 20 -operation add" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestLuckyInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LargestLuckyInteger" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoOfPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NoOfPairs" />
-      <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,8 +200,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveAnagrams" />
+    <configuration name="SplitTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SplitTheString" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,13 +214,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeExamples" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeNode" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TargetIndices" />
-        <item itemvalue="Application.LargestLuckyInteger" />
-        <item itemvalue="Application.RemoveAnagrams" />
-        <item itemvalue="Application.NoOfPairs" />
+        <item itemvalue="Application.TreeExamples" />
+        <item itemvalue="Application.TreeNode" />
+        <item itemvalue="Application.SplitTheString" />
         <item itemvalue="Application.RecursionExample" />
+        <item itemvalue="Application.TargetIndices" />
       </list>
     </recent_temporary>
   </component>

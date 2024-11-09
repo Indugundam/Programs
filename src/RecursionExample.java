@@ -49,21 +49,18 @@ public class RecursionExample {
         if (result[n] != -1) return result[n];
 
         result[n] = fibb2(n - 1, result) + fibb2(n - 2, result);
-        System.out.println(result[n]);
+        //System.out.println(result[n]);
 
         return result[n];
     }
 
-    public static void main(String[] args) {
-        fibb2Util(5);
-        fibb3Util(10);
-    }
+
     public static int fibb3Util(int n) {
         int level[] = new int[1];
         Arrays.fill(level, -1);
         int res = fibb3(10, level, 0);
-        System.out.println("level = " + level[0]);
-        System.out.println(res);
+       // System.out.println("level = " + level[0]);
+        //System.out.println(res);
         return res;
     }
 
@@ -76,4 +73,76 @@ public class RecursionExample {
 
         return fibb3(n - 1, level, curr_level + 1) + fibb3(n - 2, level, curr_level + 1);
     }
+
+
+
+    public static void main(String[] args) {
+        fibb2Util(5);
+        fibb3Util(10);
+        //func7(5);
+        //func2(4);
+//        int res = func3(3);
+//        System.out.println(res);
+        //func4(4);
+    }
+
+    public static void func(int n) { // 5
+        if (n == 0) return;
+
+        func(n - 1);
+        //System.out.println(n);
+    }
+
+    public static void func2(int n) { // 4
+        if (n == 0) return;
+        func2(n - 1);
+        func2(n - 1);
+        System.out.println(n);
+    }
+
+    public static int func3(int n) { // 3
+        if (n == 0) return 1;
+        int res1 = func3(n - 1);
+        int res2 = func3(n - 1);
+        System.out.println(res1 + res2);
+        return res1 + res2;
+    }
+
+    public static int func4(int n) { // 3
+        if (n == 0) return 1;
+
+        int sum = 0;
+        for (int i = 0; i < 3; i++) {
+            sum += func4(n - 1);
+        }
+
+        System.out.println(sum);
+        return sum;
+    }
+
+    public static int traverse(int n) { // C://
+        if (n == 0) return 1; // file  size
+
+        int size = 0;
+        for (int i = 0; i < 4; i++) {
+            size += traverse(n - 1); // folder size
+        }
+
+        //System.out.println(size); // folder size
+        return size;
+    }
+
+    public static void func6(int n) { // 5
+        if (n == 0) return;
+
+        func6(n - 1);
+        func6(n - 1);
+        //System.out.println(n);
+    }
+//    public static void func7(int n)
+//    {
+//        func7(n);
+//    }
 }
+
+

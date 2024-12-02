@@ -1,29 +1,48 @@
-class Main {
+import java.util.Scanner;
+import java.util.Vector;
+
+public class Main {
     public static void main(String[] args) {
-        String string = "";
-        boolean isMiddle = isCiaoCiaoInMiddle(string);
-        if (isMiddle) {
-            System.out.println("CiaoCiao is in the middle");
-        } else {
-            System.out.println("CiaoCiao is not in the middle");
-        }
-    }
+        Scanner sc = new Scanner(System.in);
 
-    public static boolean isCiaoCiaoInMiddle(String string) {
-        String[] words = string.split("CiaoCiao"); 
-        int length = words.length;
-        System.out.println(words.length);
-        switch (length) {
-            case 0:
-                return true;
-            case 1:
-                return false;
-            case 2:
-                return words[0].length() == words[1].length();
-            default:
-                return false;
+        int n = sc.nextInt();
+        Vector<Integer> ids = new Vector<>(n);
+        Vector<Integer> costs = new Vector<>(n);
 
+        for (int i = 0; i < n; i++) {
+            ids.add(sc.nextInt());
         }
+        for (int i = 0; i < n; i++) {
+            costs.add(sc.nextInt());
+        }
+
+        int budget = sc.nextInt();
+        int mfi = 0, mfw = 0;
+
+        for (int i = 0; i < n; i++) {
+            int buyCost = costs.get(i);
+            int maxQty = budget / buyCost;
+
+            if (maxQty > 0) {
+                int cfi = 0;
+                int cfw = 0;
+
+                for (int j = 0; j < n; j++) {
+                    if (i != j && ids.get(i) % ids.get(j) == 0) {
+                        cfi += maxQty;
+                        cfw += costs.get(j) * maxQty;
+                    }
+                }
+
+                if (cfi > mfi ||
+                        (cfi == mfi && cfw > mfw)) {
+                    mfi = cfi;
+                    mfw = cfw;
+                }
+            }
+        }
+
+        System.out.println(mfi + " " + mfw);
+        sc.close();
     }
 }
-

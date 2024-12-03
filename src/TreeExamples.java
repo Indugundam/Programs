@@ -17,21 +17,36 @@ class TreeNode {
 class TreeExamples {
 
     public static void main(String[] args) {
-        TreeNode node = new TreeNode(10);
-        node.left = new TreeNode(20);
-        node.right = new TreeNode(30);
-        node.left.left = new TreeNode(40);
-        node.left.right = new TreeNode(50);
-        node.right.left = new TreeNode(60);
-        node.right.right = new TreeNode(70);
+        TreeNode node = new TreeNode(3);
+        node.left = new TreeNode(5);
+        node.right = new TreeNode(1);
+        node.left.left = new TreeNode(6);
+        node.left.right = new TreeNode(2);
+        node.right.left = new TreeNode(9);
+        node.right.right = new TreeNode(8);
+        node.left.right.left = new TreeNode(7);
+        node.left.right.right = new TreeNode(4);
 
-        TreeNode node2 = new TreeNode(2);
-        node2.left = new TreeNode(1);
-        node2.right = new TreeNode(3);
-        node2.left.left = new TreeNode(2);
-        node2.left.right = new TreeNode(1);
-        node2.right.left = new TreeNode(0);
-        node2.right.right = new TreeNode(1);
+        TreeNode node3 = new TreeNode(3);
+        node3.left = new TreeNode(5);
+        node3.right = new TreeNode(1);
+        node3.left.left = new TreeNode(6);
+        node3.left.right = new TreeNode(7);
+        node3.right.left = new TreeNode(4);
+        node3.right.right = new TreeNode(2);
+        node3.right.right.left = new TreeNode(9);
+        node3.right.right.right = new TreeNode(8);
+
+
+
+        TreeNode node2 = new TreeNode(10);
+        node2.left = new TreeNode(20);
+        node2.right = new TreeNode(30);
+        node2.left.left = new TreeNode(40);
+        node2.left.right = new TreeNode(50);
+        node2.right.left = new TreeNode(60);
+        node2.right.right = new TreeNode(70);
+
 
         System.out.println(numberOfNodes(node));
         System.out.println(height(node));
@@ -48,18 +63,56 @@ class TreeExamples {
         }
         System.out.println(isSameTree(node, node2));
         System.out.println(isSymmetric(node));
-        TreeNode node3 = invertTree(node);
-        System.out.println(node3.data);
-        System.out.println(node3.left.data);
-        System.out.println(node3.right.data);
-        System.out.println(node3.left.left.data);
-        System.out.println(node3.left.right.data);
-        System.out.println(node3.right.left.data);
-        System.out.println(node3.right.right.data);
+        TreeNode node4 = invertTree(node);
+        System.out.println(node4.data);
+        System.out.println(node4.left.data);
+        System.out.println(node4.right.data);
+//        System.out.println(node4.left.left.data);
+        System.out.println(node4.left.right.data);
+        System.out.println(node4.right.left.data);
+        System.out.println(node4.right.right.data);
         System.out.println();
         System.out.println(invertTree(node).data);
+
+        System.out.println(leafSimilar(node, node3));
+
     }
 
+    public static boolean leafSimilar(TreeNode root1, TreeNode root2) {
+
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+
+        leafSimilarUtil(root1, list1);
+        leafSimilarUtil(root2, list2);
+
+        System.out.println(list1);
+        System.out.println(list2);
+
+        if(list1.size() != list2.size()) return false;
+
+        else {
+            for(int i = 0; i < list1.size(); i++) {
+                if(!list1.get(i).equals(list2.get(i))) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public static void leafSimilarUtil(TreeNode root, List<Integer> list) {
+
+        if(root == null) return;
+
+        if(root.left == null && root.right == null) {
+            list.add(root.data);
+        }
+
+        leafSimilarUtil(root.left, list);
+        leafSimilarUtil(root.right, list);
+
+    }
     public static TreeNode invertTree(TreeNode root) {
 
         invertTreeUtil(root);

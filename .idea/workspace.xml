@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TreeExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,171 +35,167 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddBinary.executor": "Run",
-    "Application.AlternatingString.executor": "Run",
-    "Application.ApplyOperations.executor": "Run",
-    "Application.ArrayConcatenationValue.executor": "Run",
-    "Application.ArrayForm.executor": "Run",
-    "Application.AttendanceRecord.executor": "Run",
-    "Application.BallsSeperation.executor": "Debug",
-    "Application.BusStops.executor": "Run",
-    "Application.BuzzDaySale.executor": "Run",
-    "Application.Candies.executor": "Run",
-    "Application.Cases.executor": "Run",
-    "Application.ColumnNumber.executor": "Run",
-    "Application.ColumnTitle.executor": "Run",
-    "Application.CommandLineArguments.executor": "Run",
-    "Application.CommonElements.executor": "Run",
-    "Application.ConsistentStrings.executor": "Run",
-    "Application.Convert1DArray.executor": "Run",
-    "Application.CountingBits.executor": "Run",
-    "Application.Day1.executor": "Run",
-    "Application.DecodeXORedArray.executor": "Run",
-    "Application.DecolumnizeTheString.executor": "Run",
-    "Application.DetectScannedValues.executor": "Run",
-    "Application.DifferenceOfArrays.executor": "Run",
-    "Application.DisplayLines.executor": "Run",
-    "Application.DistanceValue.executor": "Run",
-    "Application.DistinctString.executor": "Run",
-    "Application.DistributeElements.executor": "Run",
-    "Application.DivideArray.executor": "Run",
-    "Application.DuplicateWords.executor": "Run",
-    "Application.Duplicates.executor": "Run",
-    "Application.EMail.executor": "Run",
-    "Application.Employee.executor": "Run",
-    "Application.EncryptedString.executor": "Run",
-    "Application.ExtraCharacters.executor": "Run",
-    "Application.FileAPI.executor": "Run",
-    "Application.FileDemo.executor": "Run",
-    "Application.FileDepth.executor": "Run",
-    "Application.FindJudge.executor": "Run",
-    "Application.FindTheDifference.executor": "Run",
-    "Application.FirstOccurence.executor": "Run",
-    "Application.FirstPalindrome.executor": "Run",
-    "Application.FirstUniqueCharacter.executor": "Run",
-    "Application.FormAlternatingString.executor": "Run",
-    "Application.FormSmallestNumber.executor": "Run",
-    "Application.FrequencyFinder.executor": "Debug",
-    "Application.GetMaximum.executor": "Run",
-    "Application.GoodPairs.executor": "Run",
-    "Application.GradeGenerator.executor": "Run",
-    "Application.GreatestCommonDivisor.executor": "Run",
-    "Application.GroupAnagrams.executor": "Run",
-    "Application.HappyNumber.executor": "Run",
-    "Application.HeightChecker.executor": "Run",
-    "Application.HelpRitika.executor": "Run",
-    "Application.HighestAltitude.executor": "Run",
-    "Application.InterfaceExample.executor": "Run",
-    "Application.IntersectionOfArrays.executor": "Run",
-    "Application.IntersectionOfMultipleArrays.executor": "Run",
-    "Application.KeyOfNumbers.executor": "Run",
-    "Application.LargestFile.executor": "Run",
-    "Application.LargestLuckyInteger.executor": "Run",
-    "Application.LeftRightDifferences.executor": "Run",
-    "Application.Length.executor": "Run",
-    "Application.LibraryManagementSystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Matrix.executor": "Run",
-    "Application.MaximumProduct.executor": "Run",
-    "Application.MaximumSubArraySum.executor": "Run",
-    "Application.MaximumWords.executor": "Run",
-    "Application.Merge2DArrays.executor": "Run",
-    "Application.MergeSortedArray.executor": "Run",
-    "Application.MergeTwoFiles.executor": "Run",
-    "Application.MiddleIndex.executor": "Run",
-    "Application.MinimumOperations.executor": "Run",
-    "Application.MonotonicArray.executor": "Run",
-    "Application.NOofWords.executor": "Run",
-    "Application.NewString.executor": "Run",
-    "Application.NoOfPairs.executor": "Run",
-    "Application.NumberGame.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.ParityArray.executor": "Run",
-    "Application.PascalTriangle.executor": "Run",
-    "Application.Perimeter.executor": "Run",
-    "Application.Permutation.executor": "Run",
-    "Application.PhoneNumberValidator.executor": "Run",
-    "Application.Power.executor": "Run",
-    "Application.PrimeCount.executor": "Run",
-    "Application.PrintString.executor": "Run",
-    "Application.RankArray.executor": "Run",
-    "Application.RecursionExample.executor": "Run",
-    "Application.RelativeSortArray.executor": "Run",
-    "Application.RemoveAnagrams.executor": "Run",
-    "Application.RemoveDuplicateElements.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.ReorderString.executor": "Run",
-    "Application.ReshapeMatrix.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.ReverseNumber.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.ReverseTheString.executor": "Run",
-    "Application.ReverseWords.executor": "Run",
-    "Application.RichestCustomerWealth.executor": "Run",
-    "Application.RotateString.executor": "Run",
-    "Application.RunningSum.executor": "Run",
-    "Application.SearchPosition.executor": "Run",
-    "Application.SemesterResults.executor": "Run",
-    "Application.SetToZero.executor": "Run",
-    "Application.ShuffleTheArray.executor": "Run",
-    "Application.SignOfTheArray.executor": "Run",
-    "Application.SimpleAlternatingString.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.SortArray.executor": "Run",
-    "Application.SortArrayByParity.executor": "Run",
-    "Application.SortCharacters.executor": "Run",
-    "Application.SpecialArray.executor": "Run",
-    "Application.SplitTheArray.executor": "Run",
-    "Application.SplitTheString.executor": "Run",
-    "Application.SquareRoot.executor": "Run",
-    "Application.Stock.executor": "Run",
-    "Application.StringCompare.executor": "Run",
-    "Application.StringEquivalence.executor": "Run",
-    "Application.StringMatching.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.SumOfEncryptedNums.executor": "Run",
-    "Application.SumOfUniqueElements.executor": "Run",
-    "Application.SummaryRanges.executor": "Run",
-    "Application.SwingsExample.executor": "Run",
-    "Application.TargetIndices.executor": "Run",
-    "Application.Top10Files.executor": "Run",
-    "Application.Top10Words.executor": "Run",
-    "Application.TreeExamples.executor": "Run",
-    "Application.TreeNode.executor": "Run",
-    "Application.UglyNumber.executor": "Run",
-    "Application.Uppercase.executor": "Run",
-    "Application.ValidMountainArray.executor": "Run",
-    "Application.ValidParanthesis.executor": "Run",
-    "Application.WeakestRows.executor": "Run",
-    "Application.WordPattern.executor": "Run",
-    "Application.YZswapper.executor": "Run",
-    "Application.columnTitle.executor": "Run",
-    "Application.isValidPalindrome.executor": "Run",
-    "Application.pyramid.executor": "Run",
-    "Application.varArgsExample.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/indug/Documents/Programs",
-    "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddingSpaces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlternatingString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ApplyOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayConcatenationValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayForm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AttendanceRecord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BallsSeperation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BusStops.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuzzDaySale.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Candies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cases.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ColumnNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ColumnTitle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommandLineArguments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsistentStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Convert1DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountingBits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Day1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Day2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecodeXORedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecolumnizeTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectScannedValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DifferenceOfArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DisplayLines.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DistanceValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DistinctString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DistributeElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DivideArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EMail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncryptedString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtraCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDepth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindJudge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheDifference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstOccurence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstUniqueCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormAlternatingString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FormSmallestNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyFinder.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GetMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoodPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GradeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GreatestCommonDivisor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HappyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeightChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelpRitika.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestAltitude.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOfArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOfMultipleArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KeyOfNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestLuckyInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRightDifferences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Length.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubArraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Merge2DArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoFiles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonotonicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NOofWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoOfPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParityArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Perimeter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhoneNumberValidator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Power.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RankArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelativeSortArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReorderString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReshapeMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunningSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchPosition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SemesterResults.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetToZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShuffleTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SignOfTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleAlternatingString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArrayByParity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpecialArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SplitTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SplitTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareRoot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCompare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEquivalence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfEncryptedNums.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfUniqueElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SummaryRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwingsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TargetIndices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Top10Files.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Top10Words.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UglyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uppercase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidMountainArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParanthesis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidSudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeakestRows.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YZswapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.columnTitle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.isValidPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.varArgsExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/indug/Documents/Programs&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Day1">
-    <configuration name="AlternatingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlternatingString" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuzzDaySale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BuzzDaySale" />
+}</component>
+  <component name="RunManager" selected="Application.Day2">
+    <configuration name="AddingSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddingSpaces" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,15 +216,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormAlternatingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FormAlternatingString" />
+    <configuration name="Day2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day2" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelpRitika" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelpRitika" />
+    <configuration name="TreeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeExamples" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidSudoku" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day2" />
+        <item itemvalue="Application.AddingSpaces" />
+        <item itemvalue="Application.ValidSudoku" />
+        <item itemvalue="Application.TreeExamples" />
         <item itemvalue="Application.Day1" />
-        <item itemvalue="Application.HelpRitika" />
-        <item itemvalue="Application.FormAlternatingString" />
-        <item itemvalue="Application.AlternatingString" />
-        <item itemvalue="Application.BuzzDaySale" />
       </list>
     </recent_temporary>
   </component>

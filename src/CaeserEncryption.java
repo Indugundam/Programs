@@ -5,7 +5,7 @@ public class CaeserEncryption {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the number");
         int rotation = input.nextInt();
-        String string = "abc.xyz!";
+        String string = "indugundam";
         String encryptedString = encrypt(string, rotation);
         System.out.println(encryptedString);
         String decryptedString = decrypt(encrypt(string, rotation), rotation);

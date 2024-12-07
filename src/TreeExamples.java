@@ -2,6 +2,7 @@ import com.sun.source.tree.Tree;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 class TreeNode {
@@ -38,7 +39,6 @@ class TreeExamples {
         node3.right.right.right = new TreeNode(8);
 
 
-
         TreeNode node2 = new TreeNode(10);
         node2.left = new TreeNode(20);
         node2.right = new TreeNode(30);
@@ -58,7 +58,7 @@ class TreeExamples {
         List<String> list = path(node, node.left.left);
         System.out.println(list);
         HashMap<Integer, Integer> hashmap = frequency(node);
-        for(int key : hashmap.keySet()) {
+        for (int key : hashmap.keySet()) {
             System.out.println(key + ":" + hashmap.get(key));
         }
         System.out.println(isSameTree(node, node2));
@@ -75,7 +75,26 @@ class TreeExamples {
         System.out.println(invertTree(node).data);
 
         System.out.println(leafSimilar(node, node3));
+        System.out.println(isUnivalTree(node2));
+    }
 
+    public static boolean isUnivalTree(TreeNode root) {
+
+        HashSet<Integer> hashSet = new HashSet<>();
+        isUnivalTreeUtil(root, hashSet);
+
+        if (hashSet.size() == 1) return true;
+        return false;
+    }
+
+    public static void isUnivalTreeUtil(TreeNode root, HashSet<Integer> hashset) {
+
+        if (root == null) return;
+
+        hashset.add(root.data);
+
+        isUnivalTreeUtil(root.left, hashset);
+        isUnivalTreeUtil(root.right, hashset);
     }
 
     public static boolean leafSimilar(TreeNode root1, TreeNode root2) {
@@ -89,11 +108,11 @@ class TreeExamples {
         System.out.println(list1);
         System.out.println(list2);
 
-        if(list1.size() != list2.size()) return false;
+        if (list1.size() != list2.size()) return false;
 
         else {
-            for(int i = 0; i < list1.size(); i++) {
-                if(!list1.get(i).equals(list2.get(i))) {
+            for (int i = 0; i < list1.size(); i++) {
+                if (!list1.get(i).equals(list2.get(i))) {
                     return false;
                 }
             }
@@ -103,9 +122,9 @@ class TreeExamples {
 
     public static void leafSimilarUtil(TreeNode root, List<Integer> list) {
 
-        if(root == null) return;
+        if (root == null) return;
 
-        if(root.left == null && root.right == null) {
+        if (root.left == null && root.right == null) {
             list.add(root.data);
         }
 
@@ -113,6 +132,7 @@ class TreeExamples {
         leafSimilarUtil(root.right, list);
 
     }
+
     public static TreeNode invertTree(TreeNode root) {
 
         invertTreeUtil(root);
@@ -121,12 +141,12 @@ class TreeExamples {
 
     public static void invertTreeUtil(TreeNode root) {
 
-        if(root == null) return;
+        if (root == null) return;
 
         invertTreeUtil(root.left);
         invertTreeUtil(root.right);
 
-        if(root != null) {
+        if (root != null) {
             TreeNode temp = root.left;
             root.left = root.right;
             root.right = temp;
@@ -142,7 +162,7 @@ class TreeExamples {
 
     public static int sumOfLeftLeavesUtil(TreeNode root, boolean isLeftNode) {
 
-        if(root == null) return 0;
+        if (root == null) return 0;
 
         if (root.left == null && root.right == null && isLeftNode) return root.data;
 
@@ -153,10 +173,11 @@ class TreeExamples {
 
         return leftSum + rightSum;
     }
+
     public static boolean isBalanced(TreeNode root) {
 
         int val = isBalancedUtil(root, 0);
-        if(val == -1) {
+        if (val == -1) {
             return true;
         }
         return false;
@@ -164,17 +185,15 @@ class TreeExamples {
 
     public static int isBalancedUtil(TreeNode root, int level) {
 
-        if(root == null) return -1;
-
+        if (root == null) return -1;
 
 
         int lBalanced = isBalancedUtil(root.left, level + 1);
         int rBalanced = isBalancedUtil(root.right, level + 1);
 
-        if(Math.abs(lBalanced - rBalanced) <= 1) {
+        if (Math.abs(lBalanced - rBalanced) <= 1) {
             return lBalanced;
-        }
-        else {
+        } else {
             return -1;
         }
     }
@@ -187,11 +206,11 @@ class TreeExamples {
 
     public static boolean isSymmetricUtil(TreeNode leftTree, TreeNode rightTree) {
 
-        if(leftTree == null && rightTree == null) return true;
+        if (leftTree == null && rightTree == null) return true;
 
-        if(leftTree == null || rightTree == null) return false;
+        if (leftTree == null || rightTree == null) return false;
 
-        if(leftTree.data != rightTree.data) return false;
+        if (leftTree.data != rightTree.data) return false;
 
         boolean lSymmetric = isSymmetricUtil(leftTree.left, rightTree.right);
         boolean rSymmetric = isSymmetricUtil(leftTree.right, rightTree.left);
@@ -201,11 +220,11 @@ class TreeExamples {
 
     public static boolean isSameTree(TreeNode root1, TreeNode root2) {
 
-        if(root1 == null && root2 == null) return true;
-        if(root1 == null || root2 == null) return false;
+        if (root1 == null && root2 == null) return true;
+        if (root1 == null || root2 == null) return false;
 
 
-        if(root1.data != root2.data) return false;
+        if (root1.data != root2.data) return false;
 
         boolean ltree = isSameTree(root1.left, root2.left);
         boolean rtree = isSameTree(root1.right, root2.right);
@@ -283,13 +302,13 @@ class TreeExamples {
 
     public static boolean evaluateTree(TreeNode root) {
 
-        if(root == null) return true;
-        if(root.data == 0) return false;
+        if (root == null) return true;
+        if (root.data == 0) return false;
 
         boolean leftValue = evaluateTree(root.left);
         boolean rightValue = evaluateTree(root.right);
 
-        if(root.data == 2) return leftValue || rightValue;
+        if (root.data == 2) return leftValue || rightValue;
         return leftValue && rightValue;
 
     }
@@ -303,9 +322,9 @@ class TreeExamples {
 
     public static void returnPath(TreeNode root, TreeNode leaf, List<String> list) {
 
-        if(root == null) return;
+        if (root == null) return;
 
-        if(root.data == leaf.data) {
+        if (root.data == leaf.data) {
             list.add(root.data + "->");
         }
 
@@ -323,14 +342,13 @@ class TreeExamples {
 
     public static void findFreq(TreeNode root, HashMap<Integer, Integer> hashmap) {
 
-        if(root == null) return;
+        if (root == null) return;
 
-        if(hashmap.containsKey(root.data)) {
+        if (hashmap.containsKey(root.data)) {
             int freq = hashmap.remove(root.data);
             freq++;
             hashmap.put(root.data, freq);
-        }
-        else {
+        } else {
             hashmap.put(root.data, 1);
         }
 
@@ -342,8 +360,7 @@ class TreeExamples {
 
 }
 
-class Node
-{
+class Node {
     int level;
 
 }

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CaeserEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaeserEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddBinary.executor": "Run",
+    "Application.AddTwoNumbers.executor": "Run",
     "Application.AddingSpaces.executor": "Run",
     "Application.AlternatingString.executor": "Run",
     "Application.ApplyOperations.executor": "Run",
@@ -82,6 +84,7 @@
     "Application.FindTheDifference.executor": "Run",
     "Application.FirstOccurence.executor": "Run",
     "Application.FirstPalindrome.executor": "Run",
+    "Application.FirstPositiveNumber.executor": "Run",
     "Application.FirstUniqueCharacter.executor": "Run",
     "Application.FormAlternatingString.executor": "Run",
     "Application.FormSmallestNumber.executor": "Run",
@@ -104,8 +107,10 @@
     "Application.LeftRightDifferences.executor": "Run",
     "Application.Length.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
+    "Application.LongestSubString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Matrix.executor": "Run",
+    "Application.MaxNoOfIntegers.executor": "Run",
     "Application.MaximumProduct.executor": "Run",
     "Application.MaximumSubArraySum.executor": "Run",
     "Application.MaximumWords.executor": "Run",
@@ -119,6 +124,7 @@
     "Application.NewString.executor": "Run",
     "Application.NoOfPairs.executor": "Run",
     "Application.NumberGame.executor": "Run",
+    "Application.OneAway.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.ParityArray.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
@@ -135,6 +141,7 @@
     "Application.RemoveDuplicateElements.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReorderString.executor": "Run",
+    "Application.ReplaceSpaces.executor": "Run",
     "Application.ReshapeMatrix.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
@@ -179,6 +186,7 @@
     "Application.ValidParanthesis.executor": "Run",
     "Application.ValidSudoku.executor": "Run",
     "Application.WeakestRows.executor": "Run",
+    "Application.WildCardMatching.executor": "Run",
     "Application.WordPattern.executor": "Run",
     "Application.YZswapper.executor": "Run",
     "Application.columnTitle.executor": "Run",
@@ -196,21 +204,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SubSequentString">
-    <configuration name="AddingSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AddingSpaces" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaeserEncryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CaeserEncryption" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxNoOfIntegers">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -219,22 +213,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2" />
+    <configuration name="FirstPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstPositiveNumber" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3" />
+    <configuration name="MaxNoOfIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxNoOfIntegers" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSequentString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubSequentString" />
+    <configuration name="OneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneAway" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeExamples" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WildCardMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WildCardMatching" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubSequentString" />
-        <item itemvalue="Application.CaeserEncryption" />
-        <item itemvalue="Application.Day3" />
-        <item itemvalue="Application.Day2" />
-        <item itemvalue="Application.AddingSpaces" />
+        <item itemvalue="Application.MaxNoOfIntegers" />
+        <item itemvalue="Application.TreeExamples" />
+        <item itemvalue="Application.WildCardMatching" />
+        <item itemvalue="Application.FirstPositiveNumber" />
+        <item itemvalue="Application.OneAway" />
       </list>
     </recent_temporary>
   </component>

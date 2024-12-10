@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OneAway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,8 @@
     "Application.CaeserEncryption.executor": "Run",
     "Application.Candies.executor": "Run",
     "Application.Cases.executor": "Run",
+    "Application.CheckPermutation.executor": "Run",
+    "Application.ClearDigits.executor": "Run",
     "Application.ColumnNumber.executor": "Run",
     "Application.ColumnTitle.executor": "Run",
     "Application.CommandLineArguments.executor": "Run",
@@ -115,9 +116,11 @@
     "Application.MaximumSubArraySum.executor": "Run",
     "Application.MaximumWords.executor": "Run",
     "Application.Merge2DArrays.executor": "Run",
+    "Application.MergeIntervals.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
     "Application.MiddleIndex.executor": "Run",
+    "Application.MinimumAverage.executor": "Run",
     "Application.MinimumOperations.executor": "Run",
     "Application.MonotonicArray.executor": "Run",
     "Application.NOofWords.executor": "Run",
@@ -126,6 +129,7 @@
     "Application.NumberGame.executor": "Run",
     "Application.OneAway.executor": "Run",
     "Application.Palindrome.executor": "Run",
+    "Application.PalindromePermutation.executor": "Run",
     "Application.ParityArray.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
     "Application.Perimeter.executor": "Run",
@@ -149,6 +153,7 @@
     "Application.ReverseTheString.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
+    "Application.RotateMatrix.executor": "Run",
     "Application.RotateString.executor": "Run",
     "Application.RunningSum.executor": "Run",
     "Application.SearchPosition.executor": "Run",
@@ -167,6 +172,7 @@
     "Application.SquareRoot.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StringCompare.executor": "Run",
+    "Application.StringCompression.executor": "Run",
     "Application.StringEquivalence.executor": "Run",
     "Application.StringMatching.executor": "Run",
     "Application.Student.executor": "Run",
@@ -204,7 +210,14 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxNoOfIntegers">
+  <component name="RunManager" selected="Application.MinimumAverage">
+    <configuration name="ClearDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClearDigits" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -213,15 +226,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstPositiveNumber" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxNoOfIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxNoOfIntegers" />
+    <configuration name="MinimumAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumAverage" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,15 +240,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeExamples" />
+    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateMatrix" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildCardMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WildCardMatching" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringCompression" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,10 +256,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxNoOfIntegers" />
-        <item itemvalue="Application.TreeExamples" />
-        <item itemvalue="Application.WildCardMatching" />
-        <item itemvalue="Application.FirstPositiveNumber" />
+        <item itemvalue="Application.MinimumAverage" />
+        <item itemvalue="Application.ClearDigits" />
+        <item itemvalue="Application.RotateMatrix" />
+        <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.OneAway" />
       </list>
     </recent_temporary>

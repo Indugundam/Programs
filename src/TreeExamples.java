@@ -78,6 +78,28 @@ class TreeExamples {
         System.out.println(isUnivalTree(node2));
     }
 
+    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+
+        if(root == null) return null;
+
+        if(root.data == p.data || root.data == q.data) {
+            return root;
+        }
+
+        TreeNode lnode = lowestCommonAncestor(root.left, p, q);
+        TreeNode rnode = lowestCommonAncestor(root.right, p, q);
+
+        if(lnode != null && rnode != null) {
+            return root;
+        }
+        if(lnode != null) {
+            return lnode;
+        }
+        if(rnode != null) {
+            return rnode;
+        }
+        return null;
+    }
     public static boolean isUnivalTree(TreeNode root) {
 
         HashSet<Integer> hashSet = new HashSet<>();

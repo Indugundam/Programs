@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OneAway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,7 @@
     "Application.FileDemo.executor": "Run",
     "Application.FileDepth.executor": "Run",
     "Application.FindJudge.executor": "Run",
+    "Application.FindScore.executor": "Run",
     "Application.FindTheDifference.executor": "Run",
     "Application.FirstOccurence.executor": "Run",
     "Application.FirstPalindrome.executor": "Run",
@@ -123,6 +124,8 @@
     "Application.MinimumAverage.executor": "Run",
     "Application.MinimumOperations.executor": "Run",
     "Application.MonotonicArray.executor": "Run",
+    "Application.MostCommonWord.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
     "Application.NOofWords.executor": "Run",
     "Application.NewString.executor": "Run",
     "Application.NoOfPairs.executor": "Run",
@@ -159,6 +162,7 @@
     "Application.SearchPosition.executor": "Run",
     "Application.SemesterResults.executor": "Run",
     "Application.SetToZero.executor": "Run",
+    "Application.ShortestCompletingWord.executor": "Run",
     "Application.ShuffleTheArray.executor": "Run",
     "Application.SignOfTheArray.executor": "Run",
     "Application.SimpleAlternatingString.executor": "Run",
@@ -210,18 +214,18 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MinimumAverage">
-    <configuration name="ClearDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClearDigits" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShortestCompletingWord">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
       <option name="PROGRAM_PARAMETERS" value="-arg1 10 -arg2 20 -operation add" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindScore" />
+      <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,22 +237,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OneAway" />
+    <configuration name="MostCommonWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostCommonWord" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateMatrix" />
+    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoveZeros" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringCompression" />
+    <configuration name="ShortestCompletingWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortestCompletingWord" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestCompletingWord" />
+        <item itemvalue="Application.MostCommonWord" />
+        <item itemvalue="Application.FindScore" />
+        <item itemvalue="Application.MoveZeros" />
         <item itemvalue="Application.MinimumAverage" />
-        <item itemvalue="Application.ClearDigits" />
-        <item itemvalue="Application.RotateMatrix" />
-        <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.OneAway" />
       </list>
     </recent_temporary>
   </component>

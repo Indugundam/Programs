@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,7 @@
     "Application.DecolumnizeTheString.executor": "Run",
     "Application.DetectScannedValues.executor": "Run",
     "Application.DifferenceOfArrays.executor": "Run",
+    "Application.DifferentIntegers.executor": "Run",
     "Application.DisplayLines.executor": "Run",
     "Application.DistanceValue.executor": "Run",
     "Application.DistinctString.executor": "Run",
@@ -128,6 +128,7 @@
     "Application.MoveZeros.executor": "Run",
     "Application.NOofWords.executor": "Run",
     "Application.NewString.executor": "Run",
+    "Application.NextPermutation.executor": "Run",
     "Application.NoOfPairs.executor": "Run",
     "Application.NumberGame.executor": "Run",
     "Application.OneAway.executor": "Run",
@@ -135,6 +136,7 @@
     "Application.PalindromePermutation.executor": "Run",
     "Application.ParityArray.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
+    "Application.PercentageOfLetter.executor": "Run",
     "Application.Perimeter.executor": "Run",
     "Application.Permutation.executor": "Run",
     "Application.PhoneNumberValidator.executor": "Run",
@@ -160,6 +162,7 @@
     "Application.RotateString.executor": "Run",
     "Application.RunningSum.executor": "Run",
     "Application.SearchPosition.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
     "Application.SemesterResults.executor": "Run",
     "Application.SetToZero.executor": "Run",
     "Application.ShortestCompletingWord.executor": "Run",
@@ -214,7 +217,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ShortestCompletingWord">
+  <component name="RunManager" selected="Application.DifferentIntegers">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -223,29 +226,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindScore" />
+    <configuration name="DifferentIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DifferentIntegers" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinimumAverage" />
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NextPermutation" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostCommonWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MostCommonWord" />
+    <configuration name="PercentageOfLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercentageOfLetter" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoveZeros" />
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondLargest" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DifferentIntegers" />
+        <item itemvalue="Application.SecondLargest" />
+        <item itemvalue="Application.PercentageOfLetter" />
+        <item itemvalue="Application.NextPermutation" />
         <item itemvalue="Application.ShortestCompletingWord" />
-        <item itemvalue="Application.MostCommonWord" />
-        <item itemvalue="Application.FindScore" />
-        <item itemvalue="Application.MoveZeros" />
-        <item itemvalue="Application.MinimumAverage" />
       </list>
     </recent_temporary>
   </component>

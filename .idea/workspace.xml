@@ -45,10 +45,13 @@
     "Application.ArrayForm.executor": "Run",
     "Application.AttendanceRecord.executor": "Run",
     "Application.BallsSeperation.executor": "Debug",
+    "Application.Bigram.executor": "Run",
+    "Application.BuddyStrings.executor": "Run",
     "Application.BusStops.executor": "Run",
     "Application.BuzzDaySale.executor": "Run",
     "Application.CaeserEncryption.executor": "Run",
     "Application.Candies.executor": "Run",
+    "Application.CartoonDrawer.executor": "Run",
     "Application.Cases.executor": "Run",
     "Application.CheckPermutation.executor": "Run",
     "Application.ClearDigits.executor": "Run",
@@ -58,6 +61,7 @@
     "Application.CommonElements.executor": "Run",
     "Application.ConsistentStrings.executor": "Run",
     "Application.Convert1DArray.executor": "Run",
+    "Application.CountPaths.executor": "Run",
     "Application.CountingBits.executor": "Run",
     "Application.Day1.executor": "Run",
     "Application.Day2.executor": "Run",
@@ -81,6 +85,7 @@
     "Application.FileAPI.executor": "Run",
     "Application.FileDemo.executor": "Run",
     "Application.FileDepth.executor": "Run",
+    "Application.FindBuilding.executor": "Run",
     "Application.FindJudge.executor": "Run",
     "Application.FindScore.executor": "Run",
     "Application.FindTheDifference.executor": "Run",
@@ -195,6 +200,7 @@
     "Application.TreeNode.executor": "Run",
     "Application.UglyNumber.executor": "Run",
     "Application.Uppercase.executor": "Run",
+    "Application.ValidBST.executor": "Run",
     "Application.ValidMountainArray.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
     "Application.ValidSudoku.executor": "Run",
@@ -217,7 +223,21 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DifferentIntegers">
+  <component name="RunManager" selected="Application.CartoonDrawer">
+    <configuration name="BuddyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuddyStrings" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartoonDrawer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CartoonDrawer" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -226,36 +246,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DifferentIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DifferentIntegers" />
+    <configuration name="CountPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountPaths" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NextPermutation" />
+    <configuration name="FindBuilding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindBuilding" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercentageOfLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PercentageOfLetter" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondLargest" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShortestCompletingWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShortestCompletingWord" />
+    <configuration name="ValidBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidBST" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -263,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DifferentIntegers" />
-        <item itemvalue="Application.SecondLargest" />
-        <item itemvalue="Application.PercentageOfLetter" />
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.ShortestCompletingWord" />
+        <item itemvalue="Application.CartoonDrawer" />
+        <item itemvalue="Application.ValidBST" />
+        <item itemvalue="Application.FindBuilding" />
+        <item itemvalue="Application.BuddyStrings" />
+        <item itemvalue="Application.CountPaths" />
       </list>
     </recent_temporary>
   </component>

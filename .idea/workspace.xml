@@ -82,6 +82,7 @@
     "Application.Employee.executor": "Run",
     "Application.EncryptedString.executor": "Run",
     "Application.ExtraCharacters.executor": "Run",
+    "Application.FaultyKeyboard.executor": "Run",
     "Application.FileAPI.executor": "Run",
     "Application.FileDemo.executor": "Run",
     "Application.FileDepth.executor": "Run",
@@ -206,6 +207,7 @@
     "Application.ValidSudoku.executor": "Run",
     "Application.WeakestRows.executor": "Run",
     "Application.WildCardMatching.executor": "Run",
+    "Application.WordBreak.executor": "Run",
     "Application.WordPattern.executor": "Run",
     "Application.YZswapper.executor": "Run",
     "Application.columnTitle.executor": "Run",
@@ -223,14 +225,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CartoonDrawer">
-    <configuration name="BuddyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BuddyStrings" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FaultyKeyboard">
     <configuration name="CartoonDrawer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CartoonDrawer" />
       <module name="codsoft" />
@@ -246,8 +241,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountPaths" />
+    <configuration name="FaultyKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FaultyKeyboard" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -267,13 +262,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordBreak" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FaultyKeyboard" />
+        <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.CartoonDrawer" />
         <item itemvalue="Application.ValidBST" />
         <item itemvalue="Application.FindBuilding" />
-        <item itemvalue="Application.BuddyStrings" />
-        <item itemvalue="Application.CountPaths" />
       </list>
     </recent_temporary>
   </component>

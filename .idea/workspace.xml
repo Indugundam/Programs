@@ -73,6 +73,7 @@
     "Application.DifferentIntegers.executor": "Run",
     "Application.DisplayLines.executor": "Run",
     "Application.DistanceValue.executor": "Run",
+    "Application.DistinctAverages.executor": "Run",
     "Application.DistinctString.executor": "Run",
     "Application.DistributeElements.executor": "Run",
     "Application.DivideArray.executor": "Run",
@@ -109,9 +110,11 @@
     "Application.InterfaceExample.executor": "Run",
     "Application.IntersectionOfArrays.executor": "Run",
     "Application.IntersectionOfMultipleArrays.executor": "Run",
+    "Application.IsPrefix.executor": "Run",
     "Application.KeyOfNumbers.executor": "Run",
     "Application.LargestFile.executor": "Run",
     "Application.LargestLuckyInteger.executor": "Run",
+    "Application.LargestPositive.executor": "Run",
     "Application.LeftRightDifferences.executor": "Run",
     "Application.Length.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
@@ -119,6 +122,7 @@
     "Application.Main.executor": "Run",
     "Application.Matrix.executor": "Run",
     "Application.MaxNoOfIntegers.executor": "Run",
+    "Application.MaxScore.executor": "Run",
     "Application.MaximumProduct.executor": "Run",
     "Application.MaximumSubArraySum.executor": "Run",
     "Application.MaximumWords.executor": "Run",
@@ -225,18 +229,18 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FaultyKeyboard">
-    <configuration name="CartoonDrawer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CartoonDrawer" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DistinctAverages">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
       <option name="PROGRAM_PARAMETERS" value="-arg1 10 -arg2 20 -operation add" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistinctAverages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DistinctAverages" />
+      <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,22 +252,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindBuilding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindBuilding" />
+    <configuration name="IsPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsPrefix" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidBST" />
+    <configuration name="LargestPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestPositive" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordBreak" />
+    <configuration name="MaxScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxScore" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistinctAverages" />
+        <item itemvalue="Application.LargestPositive" />
+        <item itemvalue="Application.IsPrefix" />
+        <item itemvalue="Application.MaxScore" />
         <item itemvalue="Application.FaultyKeyboard" />
-        <item itemvalue="Application.WordBreak" />
-        <item itemvalue="Application.CartoonDrawer" />
-        <item itemvalue="Application.ValidBST" />
-        <item itemvalue="Application.FindBuilding" />
       </list>
     </recent_temporary>
   </component>

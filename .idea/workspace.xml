@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CaeserEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaeserEncryption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +122,7 @@
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.LongestSubString.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MatchingPattern.executor": "Run",
     "Application.Matrix.executor": "Run",
     "Application.MaxNoOfIntegers.executor": "Run",
     "Application.MaxScore.executor": "Run",
@@ -158,7 +160,10 @@
     "Application.PrefixOfArray.executor": "Run",
     "Application.PrimeCount.executor": "Run",
     "Application.PrintString.executor": "Run",
+    "Application.RSADecryption.executor": "Run",
+    "Application.RSAEncryption.executor": "Run",
     "Application.RankArray.executor": "Run",
+    "Application.RearrangeStrings.executor": "Run",
     "Application.RecursionExample.executor": "Run",
     "Application.RelativeSortArray.executor": "Run",
     "Application.RemoveAnagrams.executor": "Run",
@@ -173,6 +178,7 @@
     "Application.ReverseString.executor": "Run",
     "Application.ReverseTheString.executor": "Run",
     "Application.ReverseWords.executor": "Run",
+    "Application.ReverseWordsInAString.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
     "Application.RotateMatrix.executor": "Run",
     "Application.RotateString.executor": "Run",
@@ -185,6 +191,7 @@
     "Application.ShuffleTheArray.executor": "Run",
     "Application.SignOfTheArray.executor": "Run",
     "Application.SimpleAlternatingString.executor": "Run",
+    "Application.SimplifiedDESKeyGeneration.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SortArray.executor": "Run",
     "Application.SortArrayByParity.executor": "Run",
@@ -237,7 +244,14 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountVowelStrings">
+  <component name="RunManager" selected="Application.MatchingPattern">
+    <configuration name="CaeserEncryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaeserEncryption" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -246,36 +260,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountVowelStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountVowelStrings" />
+    <configuration name="MatchingPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatchingPattern" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Occurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Occurence" />
+    <configuration name="RSADecryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RSADecryption" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrefixOfArray" />
+    <configuration name="RSAEncryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RSAEncryption" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingTheSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingTheSentence" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubString" />
+    <configuration name="SimplifiedDESKeyGeneration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimplifiedDESKeyGeneration" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountVowelStrings" />
-        <item itemvalue="Application.SubString" />
-        <item itemvalue="Application.PrefixOfArray" />
-        <item itemvalue="Application.Occurence" />
-        <item itemvalue="Application.SortingTheSentence" />
+        <item itemvalue="Application.MatchingPattern" />
+        <item itemvalue="Application.CaeserEncryption" />
+        <item itemvalue="Application.RSADecryption" />
+        <item itemvalue="Application.RSAEncryption" />
+        <item itemvalue="Application.SimplifiedDESKeyGeneration" />
       </list>
     </recent_temporary>
   </component>

@@ -4,9 +4,9 @@ public class RSADecryption {
 
     public static void main(String[] args) {
         // Given parameters
-        int p = 3;
-        int q = 13;
-        int e = 3;
+        int p = 5;
+        int q = 11;
+        int e = 7;
         int ciphertext = 14; // Ciphertext to decrypt
 
         // Calculate n and φ(n)

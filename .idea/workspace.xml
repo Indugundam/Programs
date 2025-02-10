@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasilsGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasilsGarden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IncreasingSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncreasingSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MadSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MadSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MirrorScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MirrorScore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +45,14 @@
     "Application.ApplyOperations.executor": "Run",
     "Application.ArrayConcatenationValue.executor": "Run",
     "Application.ArrayForm.executor": "Run",
+    "Application.ArrayReverse.executor": "Run",
     "Application.AttendanceRecord.executor": "Run",
     "Application.BallsSeperation.executor": "Debug",
     "Application.BasilsGarden.executor": "Run",
     "Application.Bigram.executor": "Run",
     "Application.Bouquet.executor": "Run",
     "Application.BuddyStrings.executor": "Run",
+    "Application.BullsAndCows.executor": "Run",
     "Application.BusStops.executor": "Run",
     "Application.BuzzDaySale.executor": "Run",
     "Application.CaeserEncryption.executor": "Run",
@@ -65,8 +65,10 @@
     "Application.ColumnTitle.executor": "Run",
     "Application.CommandLineArguments.executor": "Run",
     "Application.CommonElements.executor": "Run",
+    "Application.CommonIn3SortedArrays.executor": "Run",
     "Application.ConsistentStrings.executor": "Run",
     "Application.Convert1DArray.executor": "Run",
+    "Application.CountInversions.executor": "Run",
     "Application.CountPaths.executor": "Run",
     "Application.CountVowelStrings.executor": "Run",
     "Application.CountingBits.executor": "Run",
@@ -89,6 +91,8 @@
     "Application.EMail.executor": "Run",
     "Application.Employee.executor": "Run",
     "Application.EncryptedString.executor": "Run",
+    "Application.EquivalentStrings.executor": "Run",
+    "Application.EvenAndOddFreq.executor": "Run",
     "Application.ExtraCharacters.executor": "Run",
     "Application.FaultyKeyboard.executor": "Run",
     "Application.FileAPI.executor": "Run",
@@ -119,6 +123,7 @@
     "Application.IntersectionOfMultipleArrays.executor": "Run",
     "Application.IsPrefix.executor": "Run",
     "Application.KeyOfNumbers.executor": "Run",
+    "Application.KthLargestAndSmallest.executor": "Run",
     "Application.LargestFile.executor": "Run",
     "Application.LargestLuckyInteger.executor": "Run",
     "Application.LargestPositive.executor": "Run",
@@ -142,6 +147,8 @@
     "Application.MergeTwoFiles.executor": "Run",
     "Application.MiddleIndex.executor": "Run",
     "Application.MinimumAverage.executor": "Run",
+    "Application.MinimumDifference.executor": "Run",
+    "Application.MinimumJumps.executor": "Run",
     "Application.MinimumOperations.executor": "Run",
     "Application.MirrorScore.executor": "Run",
     "Application.MonotonicArray.executor": "Run",
@@ -232,6 +239,7 @@
     "Application.Uppercase.executor": "Run",
     "Application.ValidBST.executor": "Run",
     "Application.ValidMountainArray.executor": "Run",
+    "Application.ValidPair.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
     "Application.ValidSudoku.executor": "Run",
     "Application.WeakestRows.executor": "Run",
@@ -240,6 +248,7 @@
     "Application.WordLadder.executor": "Run",
     "Application.WordPattern.executor": "Run",
     "Application.YZswapper.executor": "Run",
+    "Application.ZigZagGrid.executor": "Run",
     "Application.columnTitle.executor": "Run",
     "Application.isValidPalindrome.executor": "Run",
     "Application.pyramid.executor": "Run",
@@ -255,14 +264,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MirrorScore">
-    <configuration name="Bouquet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bouquet" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EquivalentStrings">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -271,8 +273,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MazeProblem" />
+    <configuration name="CommonIn3SortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommonIn3SortedArrays" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountInversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountInversions" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquivalentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EquivalentStrings" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumJumps" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,27 +308,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UniqueOccurences" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordLadder" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EquivalentStrings" />
         <item itemvalue="Application.MirrorScore" />
-        <item itemvalue="Application.WordLadder" />
-        <item itemvalue="Application.UniqueOccurences" />
-        <item itemvalue="Application.MazeProblem" />
-        <item itemvalue="Application.Bouquet" />
+        <item itemvalue="Application.CommonIn3SortedArrays" />
+        <item itemvalue="Application.CountInversions" />
+        <item itemvalue="Application.MinimumJumps" />
       </list>
     </recent_temporary>
   </component>

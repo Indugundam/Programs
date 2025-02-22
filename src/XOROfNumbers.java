@@ -7,6 +7,7 @@ public class XOROfNumbers {
     }
     public static int duplicateNumbersXOR(int[] nums) {
         int xor = 0;
+        System.out.println(xor ^ 5);
         HashMap<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++) {
             if(map.containsKey(nums[i])) {

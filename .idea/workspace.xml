@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XOROfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XOROfNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     "Application.AddBinary.executor": "Run",
     "Application.AddTwoNumbers.executor": "Run",
     "Application.AddingSpaces.executor": "Run",
+    "Application.AllSetBits.executor": "Run",
     "Application.AlternatingString.executor": "Run",
     "Application.ApplyOperations.executor": "Run",
     "Application.ArrayConcatenationValue.executor": "Run",
@@ -80,6 +80,7 @@
     "Application.DetectScannedValues.executor": "Run",
     "Application.DifferenceOfArrays.executor": "Run",
     "Application.DifferentIntegers.executor": "Run",
+    "Application.DigitsAreEqual.executor": "Run",
     "Application.DisplayLines.executor": "Run",
     "Application.DistanceValue.executor": "Run",
     "Application.DistinctAverages.executor": "Run",
@@ -143,6 +144,7 @@
     "Application.MaximumProduct.executor": "Run",
     "Application.MaximumRepeating.executor": "Run",
     "Application.MaximumSubArraySum.executor": "Run",
+    "Application.MaximumSum.executor": "Run",
     "Application.MaximumWords.executor": "Run",
     "Application.MazeProblem.executor": "Run",
     "Application.Merge2DArrays.executor": "Run",
@@ -150,6 +152,7 @@
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergeTwoFiles.executor": "Run",
     "Application.MiddleIndex.executor": "Run",
+    "Application.MinimizeXOR.executor": "Run",
     "Application.MinimumAverage.executor": "Run",
     "Application.MinimumDifference.executor": "Run",
     "Application.MinimumJumps.executor": "Run",
@@ -271,7 +274,14 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
+  <component name="RunManager" selected="Application.MinimizeXOR">
+    <configuration name="AllSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllSetBits" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -280,8 +290,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequence" />
+    <configuration name="DigitsAreEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitsAreEqual" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -294,22 +304,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NextPermutation" />
+    <configuration name="MaximumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumSum" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlyPlusses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OnlyPlusses" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XOROfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="XOROfNumbers" />
+    <configuration name="MinimizeXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimizeXOR" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -317,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimizeXOR" />
+        <item itemvalue="Application.DigitsAreEqual" />
+        <item itemvalue="Application.MaximumSum" />
+        <item itemvalue="Application.AllSetBits" />
         <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.XOROfNumbers" />
-        <item itemvalue="Application.OnlyPlusses" />
-        <item itemvalue="Application.NextPermutation" />
       </list>
     </recent_temporary>
   </component>

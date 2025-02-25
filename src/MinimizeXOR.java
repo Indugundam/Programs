@@ -3,6 +3,7 @@ public class MinimizeXOR {
     public static void main(String[] args) {
         int num1 = 1;
         int num2 = 12;
+        int n = 10;
         System.out.println(minimizeXor(num1, num2));
     }
 

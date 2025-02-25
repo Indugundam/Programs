@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba28fe3d-2191-4487-98af-efcc3433238a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaximumFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaximumFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinimizeXOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinimizeXOR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +143,7 @@
     "Application.Matrix.executor": "Run",
     "Application.MaxNoOfIntegers.executor": "Run",
     "Application.MaxScore.executor": "Run",
+    "Application.MaximumFrequency.executor": "Run",
     "Application.MaximumProduct.executor": "Run",
     "Application.MaximumRepeating.executor": "Run",
     "Application.MaximumSubArraySum.executor": "Run",
@@ -217,6 +220,7 @@
     "Application.SignOfTheArray.executor": "Run",
     "Application.SimpleAlternatingString.executor": "Run",
     "Application.SimplifiedDESKeyGeneration.executor": "Run",
+    "Application.SmallestNmberWithAllSetBits.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SortArray.executor": "Run",
     "Application.SortArrayByParity.executor": "Run",
@@ -274,14 +278,7 @@
     "onboarding.tips.debug.path": "C:/Users/indug/Documents/JavaPrograms/DuplicateFileFinder/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MinimizeXOR">
-    <configuration name="AllSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllSetBits" />
-      <module name="codsoft" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaximumFrequency">
     <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommandLineArguments" />
       <module name="codsoft" />
@@ -297,8 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestPalindrome" />
+    <configuration name="MaximumFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumFrequency" />
       <module name="codsoft" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -318,13 +315,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmallestNmberWithAllSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SmallestNmberWithAllSetBits" />
+      <module name="codsoft" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumFrequency" />
+        <item itemvalue="Application.SmallestNmberWithAllSetBits" />
         <item itemvalue="Application.MinimizeXOR" />
         <item itemvalue="Application.DigitsAreEqual" />
         <item itemvalue="Application.MaximumSum" />
-        <item itemvalue="Application.AllSetBits" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -369,6 +373,11 @@
           <url>file://$PROJECT_DIR$/src/MergeSortedArray.java</url>
           <line>22</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MaximumFrequency.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
